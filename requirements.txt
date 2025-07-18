@@ -128,3 +128,13 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 yarg==0.1.9
+# Standard dependencies
+scikit-learn
+pandas
+joblib
+pytest
+
+# CPU-specific torch channel
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.7.0+cpu
+
