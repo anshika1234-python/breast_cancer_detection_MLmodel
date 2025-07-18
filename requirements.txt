@@ -129,12 +129,12 @@ webencodings==0.5.1
 websocket-client==1.8.0
 yarg==0.1.9
 # Standard dependencies
-scikit-learn
-pandas
+scikit-learn>=1.7.0
+pandas>=2.3.1
 joblib
 pytest
 
 # CPU-specific torch channel
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.7.0+cpu
+torch>=2.7.0+cpu
 
